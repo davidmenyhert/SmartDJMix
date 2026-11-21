@@ -1,116 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b1118">
-  <meta name="description" content="Privacy Policy for SmartDJ Mix, a mobile two-deck DJ mixing application with local music libraries and flexible audio output routing.">
-  <link rel="canonical" href="https://davidmenyhert.github.io/SmartDJMix/">
-  <title>SmartDJ Mix | Privacy Policy</title>
+  <meta name="description" content="SmartDJ Mix Privacy Policy">
+  <title>SmartDJ Mix — Privacy Policy</title>
   <style>
-    :root { color-scheme: dark; --bg:#0b1118; --panel:#141f2a; --text:#edf3f9; --soft:#b7c8d8; --accent:#6bd9ce; --line:#2b4050; --link:#8fcaff; }
+    :root { color-scheme: light dark; }
     * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.72 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
-    main { max-width: 860px; margin: auto; padding: 36px 22px 74px; }
-    header { border-bottom: 1px solid var(--line); margin-bottom: 30px; padding-bottom: 23px; }
-    .eyebrow { font-size: .78rem; font-weight: 800; color: var(--accent); text-transform: uppercase; letter-spacing: .12em; }
-    h1 { font-size: clamp(1.8rem,4.5vw,2.7rem); letter-spacing: -.03em; line-height: 1.2; margin: 10px 0 12px; }
-    h2 { color: var(--accent); font-size: 1.22rem; margin: 34px 0 9px; line-height: 1.35; }
-    p { margin: 10px 0; }
-    a { color: var(--link); text-underline-offset: 3px; }
-    a:hover { color: #c2e2ff; }
-    .date { color: var(--soft); font-size: .95rem; }
-    .intro { font-size: 1.04rem; }
-    .note { background: var(--panel); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 14px 18px; margin: 23px 0; }
-    ul { padding-left: 24px; }
-    li { margin: 5px 0; }
-    footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--soft); font-size: .86rem; }
-    :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
-    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    body { margin: 0; background: #10151e; color: #e8ecf2; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+    main { max-width: 820px; margin: 0 auto; padding: 52px 24px 80px; }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.55rem); line-height: 1.2; margin: 0 0 12px; letter-spacing: -.025em; }
+    h2 { font-size: 1.13rem; color: #f4f7fb; margin: 31px 0 9px; }
+    p { margin: 0 0 14px; color: #cbd4df; }
+    .date { color: #aabacc; margin-bottom: 30px; }
+    section { border-top: 1px solid #293445; padding-top: 4px; }
+    a { color: #8ebcfb; }
+    @media (prefers-color-scheme: light) {
+      body { background: #fff; color: #17202d; }
+      h2 { color: #17202d; }
+      p { color: #394354; }
+      .date { color: #526174; }
+      section { border-color: #e3e8ee; }
+      a { color: #155eb5; }
+    }
   </style>
 </head>
 <body>
 <main>
-  <header>
-    <div class="eyebrow">SmartDJ Mix</div>
-    <h1>Privacy Policy</h1>
-    <p class="date"><strong>Effective date:</strong> November 21, 2026</p>
-    <p class="intro">SmartDJ Mix is a mobile DJ mixing application for playing and mixing music from supported files, with optional USB audio interfaces and Bluetooth audio output. This policy explains how information is handled when using the app.</p>
-  </header>
-
-  <section aria-labelledby="stored">
-    <h2 id="stored">Information stored on your device</h2>
-    <p>SmartDJ Mix stores application settings and music-library information locally on your device. Depending on the features you use, this can include playlists, selected file references, imported audio copies, mixer and audio-routing preferences, and other configuration values needed to restore your setup.</p>
-    <p>When you choose music from your phone, an attached USB storage device, or a supported document provider, the app accesses the files you select. Some selected music files may be copied into app-managed local storage so they remain available to the music library. SmartDJ Mix does not operate a server to receive your personal music collection or playlists.</p>
+  <h1>SmartDJ Mix — Privacy Policy</h1>
+  <p class="date"><strong>Effective date:</strong> November 21, 2026</p>
+  <p>SmartDJ Mix is a DJ mixing application for playing and mixing music, cue monitoring, and working with compatible audio devices.</p>
+  <section><h2>Information stored on your device</h2>
+  <p>SmartDJ Mix uses local storage to remember app preferences and settings, which may include playlists, selected music locations, audio routing, mixer controls, and other user choices. This information is stored on your device and is not uploaded to a SmartDJ Mix-operated server.</p>
+  <p>Your music files remain in the locations you select. Loading a track for local playback does not upload that track to a SmartDJ Mix-operated server.</p>
   </section>
-
-  <section aria-labelledby="permissions">
-    <h2 id="permissions">Audio, files, and device permissions</h2>
-    <p>Depending on the Android version and enabled features, SmartDJ Mix may request access to audio files or user-selected folders, or permission to use an audio input. Such access is used for the app's music, recording, or audio-diagnostic functions, where available.</p>
-    <p>Connected USB audio devices and available output routes may be identified to let you choose MASTER and MONITOR outputs. Bluetooth routing is handled through Android's audio system. This routing information is used on the device to configure audio playback.</p>
-    <p>Audio input, when used by a supported feature, is processed locally. Simply using the app does not send microphone or USB audio input to a SmartDJ Mix-operated server.</p>
+  <section><h2>Audio files, permissions, and recording</h2>
+  <p>The app accesses music files and connected storage only as needed for the features you use. It may also access available audio input and output devices to support mixing, monitoring, and other audio functions.</p>
+  <p>If you choose a feature that records audio or requires audio input, the app may request permission to access that input. Recordings you explicitly create are saved locally, subject to your selected location and device settings. Local mixing does not require uploading your audio to a SmartDJ Mix-operated server.</p>
   </section>
-
-  <section aria-labelledby="recordings">
-    <h2 id="recordings">Recordings</h2>
-    <p>If you choose to record a mix using the app's REC feature, the resulting audio file is saved to storage on your device. The recording is not automatically uploaded to the developer. You decide whether to keep, export, share, or delete it. Recordings saved to a shared Music folder may remain after the app is uninstalled, depending on Android's storage behavior.</p>
+  <section><h2>External audio devices</h2>
+  <p>SmartDJ Mix can route audio through compatible built-in, Bluetooth, and USB audio devices. Device names and routing preferences may be stored locally to help restore settings when devices are available.</p>
+  <p>If an external audio interface offers hardware direct monitoring, that monitoring is performed by the audio interface itself, not by SmartDJ Mix.</p>
   </section>
-
-  <section aria-labelledby="devices">
-    <h2 id="devices">Bluetooth, external audio interfaces, and DJ SILENT</h2>
-    <p>SmartDJ Mix can route its audio to the phone's output, a compatible Bluetooth device, or supported USB audio-interface outputs. Some modes allow separate MASTER and headphone MONITOR routes when supported by your device and audio hardware.</p>
-    <p>The optional DJ SILENT controls may open or use Android's system settings for notification interruptions and touch sounds, with the permissions and user choices required by Android. SmartDJ Mix does not need to read the contents of your calls, messages, or notifications to offer these controls.</p>
-    <p>Hardware direct monitoring, when supported by a connected audio interface, is performed by the external hardware rather than by a SmartDJ Mix cloud service.</p>
+  <section><h2>Internet access and third-party services</h2>
+  <p>Local music playback and mixing do not require a SmartDJ Mix account. Internet access is not required for the core playback of locally available music files.</p>
+  <p>The app may rely on services provided by your device or connected equipment, such as file selection, audio routing, or permission management. Those services are governed by the relevant providers and your device settings. This policy does not claim support for music streaming services that have not been integrated into the app.</p>
   </section>
-
-  <section aria-labelledby="third-parties">
-    <h2 id="third-parties">Advertising and third-party services</h2>
-    <p>The version of SmartDJ Mix described by this policy does not include an in-app advertising or third-party analytics SDK. The app does not require a SmartDJ Mix account for local DJ mixing.</p>
-    <p>If you select a file from a third-party document or cloud-storage provider, that provider may handle authentication and file transfer under its own privacy policy. SmartDJ Mix does not independently receive your account password for such a provider.</p>
-    <p>If advertising, analytics, cloud accounts, or music-streaming integrations are introduced in a future release, this policy will be updated to explain any additional processing.</p>
+  <section><h2>DJ SILENT and interruption settings</h2>
+  <p>If you use DJ SILENT, the app may request access to system sound or interruption settings so you can reduce notification and touch sounds while mixing. You control these permissions through your device settings. The feature does not require reading the contents of calls or messages.</p>
   </section>
-
-  <section aria-labelledby="internet">
-    <h2 id="internet">Internet access</h2>
-    <p>Basic playback and mixing of music already available on your device do not require a SmartDJ Mix online account. Accessing files through a cloud document provider can require an internet connection and is governed by that provider's service. The app does not currently provide a built-in streaming-service login described by this policy.</p>
+  <section><h2>Children</h2>
+  <p>SmartDJ Mix is not specifically designed for children.</p>
   </section>
-
-  <section aria-labelledby="children">
-    <h2 id="children">Children's privacy</h2>
-    <p>SmartDJ Mix is not specifically designed for children. Parents and guardians should supervise younger users' access to music, recording features, and connected services as appropriate.</p>
+  <section><h2>Your choices</h2>
+  <p>You can choose which music files and audio devices to use, manage applicable permissions in your device settings, and remove locally stored app data through the device&#x27;s app storage controls or by uninstalling the app. You can manage or delete recordings and other files you created according to where they were saved.</p>
   </section>
-
-  <section aria-labelledby="choices">
-    <h2 id="choices">Your choices and controls</h2>
-    <ul>
-      <li>Choose which audio files, folders, and external devices the app can access.</li>
-      <li>Change or revoke applicable permissions through Android settings.</li>
-      <li>Manage audio-routing and DJ SILENT preferences through the app and Android settings.</li>
-      <li>Delete imported copies, playlists, saved recordings, and other local data using the relevant app or device storage controls.</li>
-    </ul>
+  <section><h2>Data security and retention</h2>
+  <p>Local preferences and app data generally remain on your device until you clear them or remove the app, subject to device backup and restore behavior. Audio recordings and music files may remain in user-selected storage locations until separately deleted.</p>
   </section>
-
-  <section aria-labelledby="retention">
-    <h2 id="retention">Data security and retention</h2>
-    <p>App-managed settings, imported audio copies, and playlist information are kept on your device until removed through the app, your device's storage settings, or uninstalling the app, subject to Android backup and storage behavior. Files stored in shared or user-selected folders may need to be deleted separately.</p>
-    <p>Because SmartDJ Mix does not operate a cloud account service for these local features, it does not provide server-side retrieval or deletion of a personal music library.</p>
+  <section><h2>Updates</h2>
+  <p>This policy may be updated if the app&#x27;s features or data practices change. The effective date above will be revised.</p>
   </section>
-
-  <section aria-labelledby="updates">
-    <h2 id="updates">Updates to this policy</h2>
-    <p>This Privacy Policy may change if SmartDJ Mix gains new features, uses additional services, or changes how information is processed. Updates will be posted here with a revised effective date.</p>
+  <section><h2>Contact</h2>
+  <p>For privacy inquiries, please use the contact channel listed on the SmartDJ Mix app store developer page.</p>
   </section>
-
-  <section aria-labelledby="contact">
-    <h2 id="contact">Contact</h2>
-    <p>For privacy questions, please use the developer contact information provided on the SmartDJ Mix Google Play Store listing.</p>
-  </section>
-
-  <footer>
-    <p>SmartDJ Mix — Privacy Policy · Last updated November 21, 2026</p>
-    <p><a href="https://github.com/davidmenyhert/SmartDJMix">SmartDJ Mix on GitHub</a></p>
-  </footer>
 </main>
 </body>
 </html>

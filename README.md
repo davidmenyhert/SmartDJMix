@@ -1,39 +1,54 @@
-# SmartDJ Mix — GitHub Pages Privacy Policy
+# SmartDJ Mix — Privacy Policy
 
-Official privacy-policy website for **SmartDJ Mix**, a two-deck DJ mixing app for Android phones and tablets.
+**Effective date:** November 21, 2026
 
-**Privacy Policy URL (after GitHub Pages is enabled):**  
-https://davidmenyhert.github.io/SmartDJMix/
+SmartDJ Mix is a DJ mixing application for playing and mixing music, cue monitoring, and working with compatible audio devices.
 
-## Publish on GitHub
 
-This repository already exists at https://github.com/davidmenyhert/SmartDJMix/.
+## Information stored on your device
 
-1. Upload `index.html` to the **root** of the `SmartDJMix` repository on the `main` branch.
-2. Replace the existing `README.md` with this file (or edit it to include the same instructions).
-3. Open **Settings → Pages** in the repository.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select **`main`** and **`/(root)`**, then save.
-6. Open https://davidmenyhert.github.io/SmartDJMix/ and verify that the policy appears.
-7. In **Google Play Console → Policy and programs → App content → Privacy policy** (menu labels may vary), use that public URL.
+SmartDJ Mix uses local storage to remember app preferences and settings, which may include playlists, selected music locations, audio routing, mixer controls, and other user choices. This information is stored on your device and is not uploaded to a SmartDJ Mix-operated server.
 
-The page is a static HTML file: it does not require a server, a backend, or a privacy-policy generator.
+Your music files remain in the locations you select. Loading a track for local playback does not upload that track to a SmartDJ Mix-operated server.
 
-## What the policy covers
+## Audio files, permissions, and recording
 
-- Locally imported MP3 files, playlists, and saved app preferences.
-- USB audio interfaces, Bluetooth output selection, and headphone monitoring.
-- Optional Android audio-input permission and user-initiated local recording, where available.
-- DJ SILENT/system sound and notification-interruption settings.
-- Internet use, third-party file providers, and data retention.
-- Contact details and future updates.
+The app accesses music files and connected storage only as needed for the features you use. It may also access available audio input and output devices to support mixing, monitoring, and other audio functions.
 
-## Important checks before publishing
+If you choose a feature that records audio or requires audio input, the app may request permission to access that input. Recordings you explicitly create are saved locally, subject to your selected location and device settings. Local mixing does not require uploading your audio to a SmartDJ Mix-operated server.
 
-The policy is drafted for the SmartDJ Mix features described as of **November 21, 2026**, based on the source archive reviewed. Verify that its statements match the **actual Google Play release (AAB)**, particularly permissions, analytics, advertising, accounts, recording, and network services. The reviewed source did **not** show a Google AdMob or analytics SDK; do not reuse TrumPet's AdMob disclosures unless the released SmartDJ Mix app actually includes such services.
+## External audio devices
 
-If streaming-provider authentication, advertising, analytics, cloud uploads, or other data processing is added later, update `index.html` and its effective date **before** releasing those features. Ensure the Play Console **Data safety** answers match the real production build.
+SmartDJ Mix can route audio through compatible built-in, Bluetooth, and USB audio devices. Device names and routing preferences may be stored locally to help restore settings when devices are available.
 
-Do **not** upload the Flutter/Android signing keystore (`.jks`), `key.properties`, API secrets, or private symbol/mapping files to this public policy repository.
+If an external audio interface offers hardware direct monitoring, that monitoring is performed by the audio interface itself, not by SmartDJ Mix.
 
-> Note: Google Play also requires a privacy-policy link or equivalent access **inside the app** when applicable. This GitHub Pages site provides the public website; it does not automatically add a Privacy Policy menu item inside SmartDJ Mix.
+## Internet access and third-party services
+
+Local music playback and mixing do not require a SmartDJ Mix account. Internet access is not required for the core playback of locally available music files.
+
+The app may rely on services provided by your device or connected equipment, such as file selection, audio routing, or permission management. Those services are governed by the relevant providers and your device settings. This policy does not claim support for music streaming services that have not been integrated into the app.
+
+## DJ SILENT and interruption settings
+
+If you use DJ SILENT, the app may request access to system sound or interruption settings so you can reduce notification and touch sounds while mixing. You control these permissions through your device settings. The feature does not require reading the contents of calls or messages.
+
+## Children
+
+SmartDJ Mix is not specifically designed for children.
+
+## Your choices
+
+You can choose which music files and audio devices to use, manage applicable permissions in your device settings, and remove locally stored app data through the device's app storage controls or by uninstalling the app. You can manage or delete recordings and other files you created according to where they were saved.
+
+## Data security and retention
+
+Local preferences and app data generally remain on your device until you clear them or remove the app, subject to device backup and restore behavior. Audio recordings and music files may remain in user-selected storage locations until separately deleted.
+
+## Updates
+
+This policy may be updated if the app's features or data practices change. The effective date above will be revised.
+
+## Contact
+
+For privacy inquiries, please use the contact channel listed on the SmartDJ Mix app store developer page.
